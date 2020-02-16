@@ -4,4 +4,14 @@ terraform {
 
   required_providers {
   }
+
+  # https://www.terraform.io/docs/backends/types/remote.html.
+  backend "remote" {
+    hostname     = "app.terraform.io"
+    organization = "subjectivite-de-lobjectif"
+
+    workspaces {
+      name = "tf-dns-acrosszuniverse-com"
+    }
+  }
 }
