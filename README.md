@@ -1,6 +1,6 @@
-# Terraform Module Template
+# Terraform DNS zone - acrosszuniverse.com
 
-Template of a minimal Terraform module.
+Template module for managing the `acrosszuniverse.com` DNS zone.
 
 This module follows the [standard structure][standard-module-structure] described in the [Terraform documentation][terraform-docs].
 
