@@ -1,5 +1,5 @@
 locals {
-  zone = "zerowastesgp.fr"
+  zone = "acrosszuniverse.com"
 
   dns_records = [
   ]
